@@ -3,7 +3,7 @@ interface Shape{
 	double getarea();
 }
 interface Color{
-	String getcolor();
+	String getcolo();
 }
 class Rectangle implements Shape,Color{
 	double width;
